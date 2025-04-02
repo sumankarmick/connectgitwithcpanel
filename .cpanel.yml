@@ -1,5 +1,2 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/wpdemo5ab/public_html/
-    - /bin/cp * $DEPLOYPATH
+    deploy:
+      - cp -r . /home/wpdemo5ab/public_html/
